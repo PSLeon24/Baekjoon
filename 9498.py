@@ -1,6 +1,6 @@
 # Step 1. Input score
 score = int(input())
-in
+
 # Step 2. sort by score
 if score >= 90 and score <= 100:
     print('A')
