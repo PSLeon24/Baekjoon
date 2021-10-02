@@ -1,12 +1,16 @@
 {
   "folders": [
 	{
-		"name": "Programming Study",
-		"path": "../../Programming Study"
+		"path": "../../ProSoft"
 	},
 	{
-		"name": "Baekjoon",
+		"path": "../Study_Django"
+	},
+	{
 		"path": "."
+	},
+	{
+		"path": "../Research_python"
 	}
 ],
   "settings": {}

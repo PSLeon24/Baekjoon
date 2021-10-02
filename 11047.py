@@ -20,7 +20,7 @@ coins.sort(reverse=True)
 50 X, 10 X, 5 X, 1 X
 '''
 
-#tmp = k
+# Step 4. Calc
 cnt = 0
 for i in range(0, n):
     if coins[i] > k:
@@ -29,4 +29,5 @@ for i in range(0, n):
         cnt += (k//coins[i])
         k %= coins[i]
 
+# Step 5. Print cnt
 print(cnt)
