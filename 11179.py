@@ -1,7 +1,7 @@
 n = int(input())
 
 n = bin(n)
-print(n[2:])
+# print(n[2:])
 n = list(n)
 del n[:2]
 tmp = []
