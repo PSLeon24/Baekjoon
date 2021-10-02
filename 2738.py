@@ -30,4 +30,3 @@ for i in range(n):
     for j in range(m):
         matrix_A[i][j] += matrix_B[i][j]
     print(*matrix_A[i])
-'''
