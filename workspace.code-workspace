@@ -1,17 +1,38 @@
 {
   "folders": [
-	{
-		"path": "../../ProSoft"
-	},
-	{
-		"path": "../Study_Django"
-	},
-	{
-		"path": "."
-	},
-	{
-		"path": "../Research_python"
-	}
-],
+    {
+      "path": "../../ProSoft"
+    },
+    {
+      "path": "../Study_Django"
+    },
+    {
+      "path": "."
+    },
+    {
+      "path": "../Research_python"
+    },
+    {
+      "path": "../WordCloud_Python"
+    },
+    {
+      "path": "../../Study_React/movie_app_prosoft"
+    },
+    {
+      "path": "../../과외/박지수/이론 실습"
+    },
+    {
+      "path": "../animefaceai"
+    },
+    {
+      "path": "../VanillaJS"
+    },
+    {
+      "path": "../../과외/박지수/웹/웹 실습"
+    },
+    {
+      "path": "../Keras"
+    }
+  ],
   "settings": {}
 }
