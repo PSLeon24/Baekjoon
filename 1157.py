@@ -1,19 +1,20 @@
-from collections import Counter
+lst = list(input())
+for i in range(len(lst)):
+    lst[i] = lst[i].upper()
+lst.sort()
+new = set(lst)
 
-words = input()
-words = words.upper()
-words = list(words)
-words = Counter(words)
-
-countValue = words.most_common()
-# print(countValue)
-originalValue = countValue[0][1]
-if len(countValue) > 1:
-    duplicateValue = countValue[1][1]
-    if originalValue == duplicateValue:
-        print('?')
+max = 0
+rank = 0
+for i in new:
+    if max < lst.count(i):
+        max = lst.count(i)
+        rank = i
+    elif max == lst.count(i):
+        rank = '?'
+    elif len(lst) == 1:
+        rank = i
     else:
-        print(countValue[0][0])
-else:
-    print(countValue[0][0])
-#    max()
+        continue
+
+print(rank)
